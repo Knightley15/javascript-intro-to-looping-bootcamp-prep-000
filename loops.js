@@ -19,6 +19,6 @@ function incrementVariable() {
   return i;
 }
 function doWhileLoop(array) {
-  do {array.pop()}
+  do {array.push()}
   while (array.length > 0 && maybeTrue());
   return array} 
