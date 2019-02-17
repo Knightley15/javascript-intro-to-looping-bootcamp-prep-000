@@ -14,11 +14,11 @@ function whileLoop(n) {
     return Math.random() >= 0.5
   }
 
+function doWhileLoop(num) {
+  var i = 0;
+}
+
 function incrementVariable() {
   i = i + 1;
   return i;
 }
-function doWhileLoop(array) {
-  do {array.push()}
-  while (array.length > 0 && maybeTrue());
-  return array} 
